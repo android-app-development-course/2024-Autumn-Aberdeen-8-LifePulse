@@ -1,0 +1,41 @@
+{
+  "app": {
+    "compileSdkVersion": 9,
+    "compatibleSdkVersion": 9,
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default"
+      }
+    ],
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "storePassword": "0000001D04D4EA0DEBAF062A6C18136DE23EA60DC8F8BD5A442D48A9D2F2566F7552273448212B64243A127616",
+          "certpath": "C:/Users/k/Desktop/LifePulse/APP KEY/lifepulse.cer",
+          "keyAlias": "lifepulse1234",
+          "keyPassword": "0000001DC458A0FCEF2914098A91BBEBE9C3806C7AD855400EA3100024DBF838E60F6595F033760C7711B85543",
+          "profile": "C:/Users/k/Desktop/LifePulse/APP KEY/lifepulseRelease.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "C:/Users/k/Desktop/LifePulse/APP KEY/lifepulse.p12"
+        }
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}
